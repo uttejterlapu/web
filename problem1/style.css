@@ -1,0 +1,143 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin : 0;
+    font-family:'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.card aside {
+    background-color: hsl(216, 50%, 16%);
+    height:550px;
+    width: 350px;
+    border-radius: 15px;
+    margin:80px
+}
+
+.card_img{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:605px;
+
+}
+
+.card_img img{
+    height:300px;
+    width:300px;
+    border-radius:10px;
+}
+
+.text{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom: 590px;
+    right: 75px;
+}
+
+.text h2{
+    color:hsl(0, 0%, 100%)
+}
+
+.our{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:580px;
+}
+
+.our p{
+    color: hsl(215, 51%, 70%);   
+    width: 300px;
+}
+
+.ETH{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:560px;
+    right:100px
+}
+
+.ETH p{
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    bottom:2px;
+    size :15px;
+}
+
+.ETH svg{
+    margin-right: 10px;
+}
+
+.day{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:586px;
+    left:100px
+}
+
+.day p{
+    color: hsl(178, 100%, 50%);
+    margin-right:10px;
+}
+
+.day svg{
+    position: relative;
+    top: 3px;
+}
+
+.hr {
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:560px;
+}
+
+hr{
+    width:300px;
+    height:2px;
+    border-width:0;
+    color:hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+}
+
+.profile{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    bottom:546px;
+    right :30px;
+}
+
+.profile img{
+    height:27px;
+    border-radius: 15px;
+    border: 1px solid wheat;
+    margin-right: 15px;
+}
+
+.profile p{
+    color: hsl(215, 51%, 70%); 
+    position: relative;
+    top: 3px;
+    font-size:15px;
+}
+
+.profile p span{
+    color: white;
+    font-weight: bold;
+}
