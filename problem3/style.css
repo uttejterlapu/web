@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+*/
+
+*{
+    margin:0;
+}
+
+.hero{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    width:90%;
+}
+
+.hero aside .cards{
+    margin: 40px 30px 40px 30px;
+}
+
+.hero  .one{
+    background-color: hsl(31, 77%, 52%);
+    height:400px;
+    width:250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.hero .two{
+    background-color: hsl(184, 100%, 22%);
+    height:400px;
+    width:250px;
+    display:inline;
+}
+
+.hero .three{
+    background-color: hsl(179, 100%, 13%);
+    height:400px;
+    width:250px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.heading{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.content{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    color :hsla(0, 0%, 100%, 0.75);
+    height: 140px
+}
+
+.button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    margin-top:10px;
+    height:38px;
+    width: 120px;
+    border-radius: 19px;
+    border:none;
+    background-color:hsl(0, 0% , 100%);
+}
+
+.hero .one .cards .button{
+    color:hsl(31, 77%, 52%);
+}
+
+.hero .one .cards .button:hover{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.hero .two .cards .button{
+    color:hsl(184, 100%, 22%);
+}
+
+.hero .two .cards .button:hover{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.hero .three .cards .button{
+    color:hsl(179, 100%, 13%);
+}
+
+.hero .three .cards .button:hover{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
