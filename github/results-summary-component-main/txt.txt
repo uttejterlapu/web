@@ -1,0 +1,45 @@
+<ul type="none">
+            <li class="Reaction"><img src="/assets/images/icon-reaction.svg" alt="">Reaction
+              <span class="sl">80</span>
+              <span class="sr">/ 100</span></li>
+            <li class="Memory"><img src="/assets/images/icon-memory.svg" alt="">Memory
+              <span class="sl">92</span>
+              <span class="sr">/ 100</span></li>
+            <li class="Verbal"><img src="/assets/images/icon-verbal.svg" alt="">Verbal
+              <span class="sl">61</span>
+              <span class="sr">/ 100</span></li>
+            <li class="Visual"><img src="/assets/images/icon-visual.svg" alt="">Visual
+              <span class="sl">72</span>
+              <span class="sr">/ 100</span>
+            </li>
+          </ul>
+
+.mr ul li{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mr ul li img{
+    margin-right: 10px;
+}
+
+.Reaction{
+    color: hsl(0, 100%, 67%);
+}
+
+.Memory{
+    color:  hsl(39, 100%, 56%);
+}
+
+.Verbal{
+    color: hsl(166, 100%, 37%);
+}
+
+.Visual{
+    color: hsl(234, 85%, 45%);
+}
+
+.sl{
+    color: #000000;
+    margin-left: 3rem ;
+}
